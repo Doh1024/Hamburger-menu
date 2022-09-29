@@ -1,0 +1,20 @@
+.menu-checkbox,
+.menu.active {
+  display: block;
+}
+
+.menu-toggle {
+  font-size:36px;
+}
+
+.menu-toggle:focus{
+  outline: 2px solid;
+}
+
+.menu a {
+  display: block;
+}
+
+.menu-checkbox:checked + .menu {
+  display: block;
+}
